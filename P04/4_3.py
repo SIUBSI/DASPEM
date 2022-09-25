@@ -1,4 +1,5 @@
 # 4.3 - Studi kasus: Penjualan Tiket
+print("===== 4.3 - Studi kasus: Penjualan Tiket =====")
 
 import locale
 locale.setlocale(locale.LC_ALL, '')
@@ -37,7 +38,7 @@ print("                 XYZ")
 print("="*30)
 print("Nama Pembeli:", str(NamaPembeli))
 print("No. Handphone:", str(NoHP))
-print("Kode Jurusan:", str(Jurusan))
+print("Kode Jurusan:", str(Jurusan.upper()))
 print("Nama Kota Tujuan:", str(NamaJurusan))
 print("Harga:", locale.currency(Harga, grouping=True))
 print("Jumlah Beli:", JumlahBeli)
@@ -45,4 +46,7 @@ print("Total Pembayaran:", locale.currency(TotalBayar, grouping=True))
 
 UangBayar = int(input("Masukkan Uang Bayar: "))
 UangKembali = UangBayar-TotalBayar
-print("Uang kembali:", locale.currency(UangKembali, grouping=True))
+if UangBayar > TotalBayar:
+    print("Uang kembali:", locale.currency(UangKembali, grouping=True))
+else:
+    print("Uang anda tidak mencukupi untuk melakukan pembelian.")

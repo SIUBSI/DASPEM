@@ -26,7 +26,7 @@ MyList[2]
 # List dalam list
 YourList = ["hello", [1, 2, 3], "python"]
 
-print("="*10+" 6.1.1 - Mengakses Anggota List "+"="*10)
+print("="*5+" 6.1.1 - Mengakses Anggota List "+"="*5)
 # Output: 1
 print(YourList[1][0])
 
@@ -37,10 +37,9 @@ print(YourList[1][2])
 # MyList[6]
 
 # 6.1.2 - List dengan Indeks Negatif (hal. 67)
+print("="*5+" 6.1.2 - List dengan Indeks Negatif "+"="*5)
 
 MyList = ['p', 'y', 't', 'h', 'o', 'n']
-
-print("="*10+" 6.1.2 - List dengan Indeks Negatif "+"="*10)
 # Output: n
 print(MyList[-1])
 
@@ -49,7 +48,7 @@ print(MyList[-3])
 
 # 6.1.3 - Memotong (Slicing) List (hal. 67)
 
-print("="*10+" 6.1.3 - Memotong (Slicing) List "+"="*10)
+print("="*5+" 6.1.3 - Memotong (Slicing) List "+"="*5)
 MyList = ['p', 'y', 't', 'h', 'o', 'n', 'i', 'n', 'd', 'o']
 
 # Anggota list dari 3 s/d 5 (dari h s/d n)

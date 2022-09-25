@@ -1,7 +1,7 @@
 # 4.1 - Pernyataan if (hal. 47-48)
+print("===== 4.1 - Pernyataan if =====")
 
-# Bila bilangan positif, tampilkan pesan
-
+print("> Bila bilangan positif, tampilkan pesan")
 Angka = 5
 if Angka > 0:
     print(Angka, "adalah bilangan positif.")
@@ -12,7 +12,7 @@ if Angka > 0:
     print(Angka, "adalah bilangan negatif.")
 
 # 4.1.1 - Pernyataan if...else (hal. 48-50)
-print("="*30)
+print("\n===== 4.1.1 - Pernyataan if...else =====")
 
 '''Program menguji apakah sebuah bilangan bersifat positif atau negatif
 dan menampilkan pesan ke Monitor.'''

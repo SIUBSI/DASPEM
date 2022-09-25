@@ -1,5 +1,6 @@
 # 2.1 - Baris dan Indentasi (hal. 23-24)
 
+print("===== 2.1 - Baris dan Indentasi =====")
 nilai = 8
 
 if nilai <= 5:
@@ -10,7 +11,7 @@ else:
     print("Lulus")
 
 # 2.1.1 - Tanda Kutip pada Python (hal. 24)
-
+print("===== 2.1.1 - Tanda Kutip pada Python =====")
 kata = 'kata'
 kalimat = "Ini adalah kalimat"
 paragraf = """Ini adalah Paragraf terdiri dari beberapa
@@ -21,6 +22,8 @@ print(kalimat)
 print(paragraf)
 
 # 2.1.2 - Komentar pada Python (hal. 24-25)
+print("===== 2.1.2 - Komentar pada Python =====")
+
 #Komentar Pertama, Komentar tidak akan dianggap baris kode oleh program
 print("Universitas Bina Sarana Informatika") #Komentar Kedua
 

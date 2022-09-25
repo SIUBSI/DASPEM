@@ -1,57 +1,57 @@
 # 6.2 - Tuple (hal. 71)
 
 # 6.2.1 - Membuat Tuple (hal. 72)
-print("="*10+" 6.2.1 - Membuat Tuple "+"="*10)
+print("="*5+" 6.2.1 - Membuat Tuple "+"="*5)
 
-print("Membuat Tuple Kosong")
+print("> Membuat Tuple Kosong")
 MyTuple = ()
 print(MyTuple)
 
-print("\nTuple dengan 1 Elemen")
+print("\n> Tuple dengan 1 Elemen")
 # Output: (1, )
 MyTuple = (1,)
 print(MyTuple)
 
-print("\nTuple dengan berisi integer")
+print("\n> Tuple dengan berisi integer")
 # Output: = (1, 2, 3)
 MyTuple = (1, 2, 3)
 print(MyTuple)
 
-print("\nTuple Bersarang")
+print("\n> Tuple Bersarang")
 # Output: ("hello", [1, 2, 3], (4, 5, 6))
 MyTuple = ("hello", [1, 2, 3], (4, 5, 6))
 print(MyTuple)
 
-print("\nTuple bisa tidak menggunakan tanda ()")
+print("\n> Tuple bisa tidak menggunakan tanda ()")
 # Output: (1, 2, 3)
 MyTuple = 1, 2, 3
 print(MyTuple)
 
-print("\nMemasukkan anggota Tuple ke variabel yang bersesuaian")
+print("\n> Memasukkan anggota Tuple ke variabel yang bersesuaian")
 # A akan berisi 1, B berisi 2 dan C berisi 3
 # Output: 1 2 3
 A, B, C = MyTuple
 print(A, B, C)
 
 # 6.2.2 - Mengakses anggota Tuple (hal. 72-73)
-print("\n"+"="*10+" 6.2.2 - Mengakses anggota Tuple "+"="*10)
+print("\n"+"="*5+" 6.2.2 - Mengakses anggota Tuple "+"="*5)
 
 MyTuple = ('p', 'r', 'o', 'g', 'r', 'a', 'm', 'm', 'i', 'n', 'g')
 
-print("Akses dari indeks 0 s/d 2")
+print("> Akses dari indeks 0 s/d 2")
 # Output: ('p', 'r', 'o')
 print(MyTuple[:3])
 
-print("\nAkses dari indeks 2 s/d 5")
+print("\n> Akses dari indeks 2 s/d 5")
 # Output: ('r', 'o', 'g', 'r')
 print(MyTuple[2:6])
 
-print("\nAkses dari indeks 3 sampai akhir")
+print("\n> Akses dari indeks 3 sampai akhir")
 # Output: ('r', 'o', 'g', 'r', 'a', 'm', 'm', 'i', 'n', 'g')
 print(MyTuple[3:])
 
 # 6.2.3 - Mengubah anggota Tuple (hal. 73-74)
-print("\n"+"="*10+" 6.2.3 - Mengubah anggota Tuple "+"="*10)
+print("\n"+"="*5+" 6.2.3 - Mengubah anggota Tuple "+"="*5)
 
 MyTuple = (2, 3, 4, [5, 6])
 # Kita bisa mengubah anggota tuple
@@ -60,36 +60,36 @@ MyTuple = (2, 3, 4, [5, 6])
 
 # MyTuple[1] = 8
 
-print("Tapi list di dalam tuple bisa diubah")
+print("> Tapi list di dalam tuple bisa diubah")
 # Output: (2, 3, 4, [7, 6])
 MyTuple[3][0] = 7
 print(MyTuple)
 
-print("\nTuple bisa diganti secara keseluruhan dengan penugasan kembali")
+print("\n> Tuple bisa diganti secara keseluruhan dengan penugasan kembali")
 # Output: ('p', 'y', 't', 'h', 'o', 'n')
 MyTuple = ('p', 'y', 't', 'h', 'o', 'n')
 print(MyTuple)
 
-print("\nAnggota tuple juga tidak bisa dihapus menggunakan del")
+print("\n> Anggota tuple juga tidak bisa dihapus menggunakan del")
 # Perintah berikut akan menghasilkan error TypeError
 # Kalau Anda menghilangkan tanda komentar #
 
 # del MyTuple[0]
 
-print("Kita bisa menghapus tuple keseluruhan dengan perintah del MyTuple")
+print("> Kita bisa menghapus tuple keseluruhan dengan perintah del MyTuple")
 del MyTuple
 
 print("\n(1). Menguji Keanggotaan Tuple")
 MyTuple = (1, 2, 3, 'a', 'b', 'c')
 
-print("Menggunakan in")
+print("> Menggunakan in")
 # Output: False
 print('3' in MyTuple)
 
 # Output: False
 print('e' in MyTuple)
 
-print("Menggunakan not in")
+print("> Menggunakan not in")
 # Output: True
 print('k' not in MyTuple)
 

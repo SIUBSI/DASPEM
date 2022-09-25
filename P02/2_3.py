@@ -1,12 +1,14 @@
-#2.3.2 - Output pada Python (hal. 27-28)
+# 2.3.2 - Output pada Python (hal. 27-28)
 
-# Latihan Input & Output
+print("===== 2.3.2 - Output pada Python =====")
+print("> Latihan Input & Output")
 print("=+=+=+=+ Data Diri Mahasiswa =+=+=+=+")
 nim = input("NIM: ")
 nama = input("Nama Lengkap: ")
 jurusan = input("Jurusan: ")
 alamat = input("Alamat: ")
 
+print("="*10+" Hasil Cetak "+"="*10)
 print("Hasil cetak data diatas adalah")
 print("Nim : "+str(nim))
 print("Nama : "+str(nama))

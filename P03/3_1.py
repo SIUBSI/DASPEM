@@ -1,4 +1,6 @@
 # 3.1 - Mengakses Nilai String (hal. 29)
+
+print("===== 3.1 - Mengakses Nilai String =====")
 var1 = 'Hello Python!'
 var2 = "I love Python"
 print("var1[0]", var1[0])

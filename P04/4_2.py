@@ -1,5 +1,10 @@
 # 4.2 - Pernyataan if...elif...else (hal. 50-52)
 
+import locale
+locale.setlocale(locale.LC_ALL, '')
+
+print("===== 4.2 - Pernyataan if...elif...else =====")
+
 '''Program menguji apakah sebuah bilangan bersifat positif, nol atau negatif
 dan menampilkan pesan ke Monitor.'''
 
@@ -18,9 +23,7 @@ elif bilangan == 0:
 else:
     print("Bilangan negatif")
 
-
-# Contoh program
-print("="*30)
+print("> Contoh Program")
 
 KodeBaju = input("Masukkan Kode Baju [SP/AD]: ")
 Ukuran = input("Masukkan Ukuran Baju [S/M]: ")
@@ -47,4 +50,4 @@ else:
 
 print("-"*20)
 print("Merk Baju:", str(merk))
-print("Harga Baju: Rp.", harga)
+print("Harga Baju: Rp.", locale.currency(harga, grouping=True))

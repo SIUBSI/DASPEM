@@ -7,9 +7,8 @@ print("===== 5.1 - Program untuk menemukan jumlah bilangan dalam satu list =====
 numbers = [7, 5, 9, 8, 9, 0, 8, 4, 0]
 
 # Variabel untuk menyimpan jumlah
-
+print("> Iterasi")
 sum = 0
-
 # iterasi
 for each in numbers:
     sum = sum + each
@@ -18,7 +17,7 @@ for each in numbers:
 print("Jumlah semuanya:", sum)
 
 # 5.1.1 - Fungsi range (hal. 58-59)
-print("="*10+" 5.1.1 - Fungsi range "+"="*10)
+print("="*5+" 5.1.1 - Fungsi range "+"="*5)
 
 # Output: range(0,10)
 print(range(10))
@@ -48,7 +47,7 @@ while (Count < 5):
 print("Good Bye!")
 
 # 5.1.3 - Infinite Loop
-print("="*10+" 5.1.3 - Infinite Loop "+"="*10)
+print("="*5+" 5.1.3 - Infinite Loop "+"="*5)
 
 # Count = 0
 # while (Count < 5):
@@ -57,9 +56,9 @@ print("="*10+" 5.1.3 - Infinite Loop "+"="*10)
 # print("Good Bye!")
 
 # 5.1.4 - Kendali Looping
-print("="*10+" 5.1.4 - Kendali Looping "+"="*10)
+print("="*5+" 5.1.4 - Kendali Looping "+"="*5)
 
-# Contoh penggunaan statement break
+print("> Contoh penggunaan statement break")
 print("|With break|")
 for letter in "PythonProgramming":
     if letter == "g":
@@ -67,8 +66,8 @@ for letter in "PythonProgramming":
     print("Huruf sekarang:", letter)
 print("Good Bye!")
 
-# ketika break diubah menjadi continue
-print("\n|With continue|")
+print("\n> Ketika break diubah menjadi continue")
+print("|With continue|")
 for letter in "PythonProgramming":
     if letter == "g":
         continue
