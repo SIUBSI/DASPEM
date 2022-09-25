@@ -1,3 +1,12 @@
+# Latihan 1 - Pertemuan 3
+'''
+• Buatlah 1 Contoh Operator Penugasan 
+• Buatlah 1 Contoh Operator Logika
+• Buatlah 1 Contoh Operator Bitwise 
+• Buatlah 1 Contoh Operator Identitas 
+• Buatlah 1 Contoh Operator Keanggotaan
+'''
+
 # =========== Contoh Operator Penugasan ===========
 print("="*10+" Operator Penugasan "+"="*10)
 

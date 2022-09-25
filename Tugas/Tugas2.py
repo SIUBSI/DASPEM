@@ -1,3 +1,5 @@
+# Tugas 2 - Pertemuan 5 (hal. 64)
+
 import locale
 locale.setlocale(locale.LC_ALL, '')
 

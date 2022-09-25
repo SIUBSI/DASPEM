@@ -1,4 +1,7 @@
-# Latihan Studi Kasus: Pendaftaran Mahasiswa Baru
+# Latihan 3 - Pertemuan 4
+'''
+• Studi Kasus: Pendaftaran Mahasiswa Baru
+'''
 
 import locale
 

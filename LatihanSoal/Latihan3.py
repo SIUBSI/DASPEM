@@ -1,3 +1,9 @@
+# Latihan 2 - Pertemuan 3
+'''
+• Buatlah program seperti gambar dibawah ini (TOKO MAINAN ANAK)
+'''
+
+
 import locale
 locale.setlocale(locale.LC_ALL, '')
 

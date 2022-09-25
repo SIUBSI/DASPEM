@@ -1,4 +1,4 @@
-# Pertemuan 4 (hal. 55)
+# Tugas 1 - Pertemuan 4 (hal. 55)
 
 import locale
 locale.setlocale(locale.LC_ALL, '')
