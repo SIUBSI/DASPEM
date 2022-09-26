@@ -9,6 +9,3 @@ kapital adalah variabel yang berlainan.
 - Penulisan variabel tidak boleh dipisah oleh <spasi>.
 - Untuk variabel yang terdiri dari 2 suku kata, dapat dipisah dengan simbol underscore ( _ ) seperti nama_saya.
 '''
-# Contoh: 
-# 123angka = "angka"
-# lebih$ = 50
