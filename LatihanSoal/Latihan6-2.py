@@ -18,13 +18,13 @@ for i in range(ulang):
 
 # Proses
 for i in range(ulang):
- list_total.append((list_uas[i] + list_uts[i]))
+ list_total.append((list_uas[i] + list_uts[i]) / 2)
 
 # Cetak
 print("========================================================")
-print("NIM          UTS     UAS     Total")
+print("NIM          UTS     UAS     Rata-Rata")
 print("========================================================")
 for i in range(ulang):
  print(
-     f"{list_nim[i]}     {list_uts[i]}      {list_uas[i]}      {int(list_total[i])}")
+     f"{list_nim[i]}     {list_uts[i]}      {list_uas[i]}      {list_total[i]}")
 print("========================================================")
