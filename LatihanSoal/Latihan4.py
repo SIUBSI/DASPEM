@@ -21,7 +21,8 @@ else:
     Jurusan = f"Jurusan '{Jurusan}' tidak ditemukan."
     Biaya = 0
 
-print("Nama: ", Nama)
+print("===== HASIL CETAK =====")
+print("Nama Pendaftar: ", Nama)
 print("NIS:", NIS)
 print("Jurusan:", Jurusan)
 print("Biaya yang diperlukan:", locale.currency(Biaya, grouping=True))
