@@ -1,8 +1,5 @@
 # Tugas 1 - Pertemuan 4 (hal. 55)
 
-import locale
-locale.setlocale(locale.LC_ALL, '')
-
 Nama = str(input("Masukkan Nama: "))
 GolonganJabatan = str(input("Pilih Golongan Jabatan [1/2/3]: "))
 JumlahJamKerja = int(input("Masukkan Jam Kerja: "))
@@ -10,7 +7,6 @@ Pendidikan = str(input("Masukkan Pendidikan [SMA/D1/D3/S1]: "))
 Gaji = 300000
 
 # Perhitungan Tunjangan Jabatan
-
 if GolonganJabatan == "1":
     TunjanganJabatan = 0.05*Gaji
 elif GolonganJabatan == "2":
@@ -18,25 +14,23 @@ elif GolonganJabatan == "2":
 elif GolonganJabatan == "3":
     TunjanganJabatan = 0.15*Gaji
 else:
-    print(f"\nGolongan jabatan {GolonganJabatan} tidak ditemukan.")
+    print("\nGolongan jabatan", GolonganJabatan+" tidak ditemukan.")
     exit()
 
 # Perhitungan Tunjangan Pendidikan
-
-if Pendidikan == "SMA":
+if Pendidikan == "SMA" or Pendidikan == "sma":
     TunjanganPendidikan = 0.025*Gaji
-elif Pendidikan == "D1":
+elif Pendidikan == "D1" or Pendidikan == "d1":
     TunjanganPendidikan = 0.05*Gaji
-elif Pendidikan == "D3":
+elif Pendidikan == "D3" or Pendidikan == "d3":
     TunjanganPendidikan = 0.20*Gaji
-elif Pendidikan == "S1":
+elif Pendidikan == "S1" or Pendidikan == "s1":
     TunjanganPendidikan = 0.30*Gaji
 else:
-    print(f"\nPendidikan {GolonganJabatan} tidak ditemukan.")
+    print("\nPendidikan", Pendidikan+" tidak ditemukan.")
     exit()
 
 # Perhitungan Final
-
 if JumlahJamKerja > 8:
     Lembur = JumlahJamKerja - 8
     JumlahLembur = Lembur * 3500
@@ -47,13 +41,13 @@ else:
 TotalGaji = TunjanganJabatan + TunjanganPendidikan + Gaji + JumlahLembur
 
 print("="*20+" Hasil "+"="*20)
-print(f"Data Karyawan dengan nama {Nama}")
+print("Data Karyawan dengan nama: ", Nama)
 print(" Golongan Jabatan:", GolonganJabatan)
 print(" Jumlah Jam Kerja:", JumlahJamKerja)
-print(" Pendidikan:", Pendidikan)
+print(" Pendidikan:", Pendidikan.upper())
 print("\nHonor yang diterima")
-print(" Gaji Pokok:", locale.currency(Gaji, grouping=True))
-print(" Tunjangan Jabatan:", locale.currency(TunjanganJabatan, grouping=True))
-print(" Tunjangan Pendidikan:", locale.currency(TunjanganPendidikan, grouping=True))
-print(" Honor Lembur:", locale.currency(JumlahLembur, grouping=True) + f" (Total waktu Lembur: {Lembur} jam)")
-print(" Total Gaji:", locale.currency(TotalGaji, grouping=True))
+print(" Gaji Pokok: Rp", Gaji)
+print(" Tunjangan Jabatan: Rp", int(TunjanganJabatan))
+print(" Tunjangan Pendidikan: Rp", int(TunjanganPendidikan))
+print(" Honor Lembur: Rp", str(JumlahLembur) + " (Total waktu Lembur: ", str(Lembur)+" jam)")
+print(" Total Gaji: Rp", int(TotalGaji))
