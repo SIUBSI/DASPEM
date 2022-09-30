@@ -16,7 +16,7 @@ KodeMainan = str(input("Masukkan nama Kode Mainan: "))
 Harga = int(input("Masukkan nama Harga: "))
 JumlahBeli = int(input("Masukkan nama Jumlah beli: "))
 
-print("="*50)
+print("="*20+" Hasil Pembelian "+"="*20)
 
 print("Nama Pembeli:", NamaPembeli)
 print("Kode Mainan:", KodeMainan)
