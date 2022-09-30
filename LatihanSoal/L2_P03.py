@@ -1,4 +1,5 @@
-# Latihan 2 - Pertemuan 3
+# Latihan 2 - Pertemuan 3 (hal. 45)
+
 '''
 • Buatlah program seperti gambar dibawah ini (TOKO MAINAN ANAK)
 '''

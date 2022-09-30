@@ -1,4 +1,5 @@
-# Latihan 1 - Pertemuan 3
+# Latihan 1 - Pertemuan 3 (hal. 45)
+
 '''
 • Buatlah 1 Contoh Operator Penugasan 
 • Buatlah 1 Contoh Operator Logika

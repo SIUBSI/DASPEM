@@ -1,4 +1,5 @@
-# Latihan 1 - Pertemuan 2
+# Latihan 1 - Pertemuan 2 (hal. 27)
+
 '''
 Input & Output - Data Diri Mahasiswa
 '''

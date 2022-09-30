@@ -1,4 +1,4 @@
-# Latihan 1 - Pertemuan 4
+# Latihan 1 - Pertemuan 4 (hal. 54)
 '''
 • Studi Kasus: Pendaftaran Mahasiswa Baru
 '''
