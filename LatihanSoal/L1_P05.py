@@ -1,4 +1,4 @@
-# Latihan 5 - Pertemuan 5
+# Latihan 1 - Pertemuan 5
 '''
 • Lakukan pengulangan input data sebanyak 2 kali dengan data dibawah ini:
 Data Ke- <berulang>

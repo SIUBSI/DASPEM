@@ -1,4 +1,4 @@
-# Latihan 6-2 - Pertemuan 6
+# Latihan 2 - Pertemuan 6
 
 '''
 Buatlah input, proses dan output secara berulang dengan memanfaatkan fungsi matriks/list 

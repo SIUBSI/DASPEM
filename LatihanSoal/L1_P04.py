@@ -1,4 +1,4 @@
-# Latihan 4 - Pertemuan 4
+# Latihan 1 - Pertemuan 4
 '''
 • Studi Kasus: Pendaftaran Mahasiswa Baru
 '''

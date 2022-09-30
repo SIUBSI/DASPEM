@@ -1,4 +1,4 @@
-# Latihan 6 - Pertemuan 6
+# Latihan 1 - Pertemuan 6
 
 '''
 3.1 - Studi Kasus:
