@@ -3,13 +3,13 @@
 • Buatlah program seperti gambar dibawah ini (TOKO MAINAN ANAK)
 '''
 
-
+# Untuk menjadikan output currency menjadi format rupiah
 import locale
 locale.setlocale(locale.LC_ALL, '')
 
 
-print("         TOKO MAINAN ANAK")
-print("       ********************")
+print("\t\t  TOKO MAINAN ANAK")
+print("\t\t********************")
 
 NamaPembeli = str(input("Masukkan nama Pembeli: "))
 KodeMainan = str(input("Masukkan nama Kode Mainan: "))
